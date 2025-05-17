@@ -48,9 +48,10 @@ $ npx prisma migrate dev --name name-of-migration
 
 # OR (in CI or production)
 $ npx prisma migrate deploy
+```
 
-## Compile and run the project
 
+## Start the application
 ```bash
 # development
 $ npm run start
@@ -61,6 +62,15 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+## Swagger
+
+```bash
+# start the application
+$ npm run start:dev
+```
+
+Then open [http://localhost:3000/api](http://localhost:3000/api) in your browser.
 
 ## Run tests
 
